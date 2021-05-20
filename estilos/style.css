@@ -17,7 +17,7 @@ main{
 
 .slide-control:nth-child(1):checked ~ .item-spread .list-slide{--selected-item: 0;}
 .slide-control:nth-child(2):checked ~ .item-spread .list-slide{--selected-item: 1;}
-.slide-control:nth-child(2):checked ~ .item-spread .list-slide{--selected-item: 2;}
+.slide-control:nth-child(3):checked ~ .item-spread .list-slide{--selected-item: 2;}
 
 .item-spread{
     overflow: hidden;
