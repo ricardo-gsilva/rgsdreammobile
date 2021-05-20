@@ -15,6 +15,10 @@ main{
     box-shadow: 3px 3px 5px black;
 }
 
+.slide-control:nth-child(1):checked ~ .slide-show .slide-list{--selected-item: 0;}
+.slide-control:nth-child(2):checked ~ .slide-show .slide-list{--selected-item: 1;}
+.slide-control:nth-child(2):checked ~ .slide-show .slide-list{--selected-item: 2;}
+
 .slide-show{
     overflow: hidden;
 }
