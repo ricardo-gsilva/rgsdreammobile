@@ -1,4 +1,6 @@
-*{
+* { 
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20;
 }
@@ -9,10 +11,14 @@ body{
 
 main{
     background-color: white;
-    width: 500px;
+    width: 600px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px black;
+}
+
+.alinhar{
+  text-align: center;
 }
 
 .slide-controller:nth-child(1):checked ~ .slide-show .slides-list{--selected-item: 0;}
